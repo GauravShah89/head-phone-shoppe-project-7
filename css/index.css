@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@100;200&family=Orbitron&family=Oswald:wght@200;400&family=Poppins:wght@100;200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-family: "Fredoka One","Poppins";
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-between;    
+    
+}
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    width: 8%;
+    
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    align-items: center;
+    width: 40%;
+    
+    font-size: 20px;
+    font-family: "Poppins";
+}
+.active-item{
+    color: #FE5E35;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    justify-content: flex-end;
+    
+}
+
+.intro-section{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.action-btn{
+    background-color: #FE5E35;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+.left-section{
+    /* border: 1px solid black; */
+    height: 800px;
+    width: 50%;
+    
+}
+
+.left-section h3{
+    /* border: 2px solid red; */
+    font-weight: 300;
+    font-size: 35px;
+    font-family: "Poppins";
+}
+.left-section h3 img{
+    display: inline;
+    vertical-align: baseline;
+    
+    height: 45px;
+}
+
+.left-section h1 {
+    /* border: 2px solid red; */
+    font-weight: 200;
+    font-size: 45px;
+    
+}
+
+.sub-headlines{
+    
+    display: flex;
+    flex-direction: column;
+}
+.sub-headline{
+    display: flex;
+    
+    align-items: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+.sub-headline img{    
+    display: block;
+    background-color: #fe5e35;
+    padding: 4px;
+    margin-right: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.text{
+    
+    width: 600px;
+    font-family: "Poppins";
+    font-weight: 200;
+    text-align: left;    
+}
+
+.action-btns{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+}
+
+
+.right-section{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+    height: 800px;
+}
+
+[alt="headphone"]{
+    
+    z-index: -1;
+    height: 500px;
+    position: absolute;
+    right: 0px;
+}
+
+.discount{    
+    position: relative;
+    top: 305px;
+    right: 400px;
+}
+
+.discount-content{    
+    position: relative;
+    top: 170px;
+    right: 350px;
+    color: white;
+}
+
+.dots{
+    /* border: 2px solid red; */
+    position: relative;
+    top: 200px;
+    width: 400px;
+    right: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dot {
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 3rem;
+    ;
+}
+.yellow-dot {
+    background-color: #E8BD0D;
+}
+
+.tomato-dot {
+    background-color: #fe5e35;
+}
+
+.black-dot {
+    background-color: #000;
+}
+
+.right-section button{
+    position: relative;
+    /* border: 10px solid black; */
+    top: 210px;
+    right: 240px;
+}
+
